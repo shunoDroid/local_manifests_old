@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="shunoDroid"
+	  fetch="https://github.com/shunoDroid"
+	  revision="cm-14.1" />
+
+  <project name="android_device_sony_satsuki" path="device/sony/satsuki" remote="shunoDroid" />
+  <project name="android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="shunoDroid" />
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
+  <project name="LineageOS/android_kernel_sony_msm8994" path="kernel/sony/msm8994" remote="github" />
+
+</manifest>
