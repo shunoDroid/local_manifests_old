@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="XperiaMultiROM/multirom" path="system/extras/multirom" remote="github" />
+  <project name="XperiaMultiROM/multirom_libbootimg" path="system/extras/libbootimg" remote="github" />
+  <project name="multirom-htc/Team-Win-Recovery-Project" path="bootable/recovery-twrp" remote="github" revision="android-7.1-mrom"/>
+  <project name="android_kernel_sony_msm8994_stock" path="kernel/sony/msm8994" remote="shunoDroid" />
+
+</manifest>
