@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="shunoDroid" fetch="https//github.com/shunoDroid" revision="cm-14.1" >
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/common-init" name="device-sony-common-init" groups="device" remote="sony" revision="n-mr1" />
@@ -22,11 +23,11 @@
 <project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="sony" revision="n-mr1" />
 
 <!--msm8994-->
-<project path="device/sony/kitakami" name="device-sony-kitakami" groups="device" remote="sony" revision="n-mr1" />
+<project path="device/sony/kitakami" name="android_device_sony_kitakami" groups="device" remote="shunoDroid"  />
 <project path="device/sony/ivy" name="device-sony-ivy" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/karin" name="device-sony-karin" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/karin_windy" name="device-sony-karin_windy" groups="device" remote="sony" revision="n-mr1" />
-<project path="device/sony/satsuki" name="device-sony-satsuki" groups="device" remote="sony" revision="n-mr1" />
+<project path="device/sony/satsuki" name="android_device_sony_satsuki" groups="device" remote="shunoDroid" />
 <project path="device/sony/sumire" name="device-sony-sumire" groups="device" remote="sony" revision="n-mr1" />
 <project path="device/sony/suzuran" name="device-sony-suzuran" groups="device" remote="sony" revision="n-mr1" />
 
